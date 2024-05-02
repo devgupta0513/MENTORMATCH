@@ -1,5 +1,5 @@
 import React from 'react'
-import Instructor from "../../../assets/Images/Instructor.png"
+import Instructor from "../../../assets/Images/Mentor3.jpg"
 import HighlightText from './HighlightText'
 import CTAButton from "../HomePage/Button"
 import { FaArrowRight } from 'react-icons/fa'
@@ -19,8 +19,8 @@ const InstructorSection = () => {
 
         <div className='md:w-[50%] flex flex-col gap-10'>
             <div className='text-4xl font-semobold md:w-[50%]'>
-                Become an
-                <HighlightText text={"Instructor"} />
+                Become a <br/>
+                <HighlightText text={"Mentor"} />
             </div>
 
             <p className='font-medium text-[16px] w-[80%] text-richblack-300'>
@@ -30,7 +30,7 @@ const InstructorSection = () => {
             <div className='w-fit mx-auto'>
                 <CTAButton active={true} linkto={"/signup"}>
                     <div className='flex flex-row gap-2 items-center'>
-                        Start Learning Today
+                        Guide Mentees Today
                         <FaArrowRight />
                     </div>
                 </CTAButton>

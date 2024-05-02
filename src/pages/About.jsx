@@ -91,7 +91,7 @@ const About = () => {
 
       <section>
       <div className=' mb-16 mt-3 w-screen'>
-        <h2 className='text-center text-4xl font-semibold mt-8 text-richblack-5 mb-5'>Reviews from other learners</h2>
+        <h2 className='text-center text-4xl font-semibold mt-8 text-black mb-5'>Reviews from other learners</h2>
         <RatingSlider />
       </div>
       </section>

@@ -11,18 +11,18 @@ const LearningLanguageSection = () => {
       <div className='flex flex-col gap-5 items-center'>
 
             <div className='text-4xl font-semibold text-center'>
-                Your Swiss Knife for
-                <HighlightText text={" learning any language"} />
+            Enhance your post knowledge with our
+                <HighlightText text={" Specialised Courses"} />
             </div>
 
             <div className='text-center text-richblack-600 mx-auto text-base font-medium w-[70%]'>
-            Using spin making learning multiple languages easy. with 20+ languages realistic voice-over, progress tracking, custom schedule and more.
+            Improve your skills with our Specialized Courses. You can learn many new things in subjects you enjoy.
             </div>
 
             <div className='flex flex-col lg:flex-row items-center justify-center mt-5'>
                 <img 
                     src = {know_your_progress}
-                    alt = "KNowYourProgressImage"
+                    alt = "KnowYourProgressImage"
                     className='object-contain md:-mr-32 '
                 />
                 <img 

@@ -174,11 +174,11 @@ function Home() {
                             </div>
                             
                         </CTAButton>
-                        <CTAButton active={false} linkto={"/signup"}>
+                        {/* <CTAButton active={false} linkto={"/signup"}>
                             <div>
                                 Learn more
                             </div>
-                        </CTAButton>
+                        </CTAButton> */}
                     </div>
 
                 </div>
@@ -190,8 +190,8 @@ function Home() {
 
                 <div className='flex flex-row gap-5 mb-10 mt-[95px]'>
                     <div className='text-4xl font-semibold w-[45%]'>
-                        Get the Skills you need for a
-                        <HighlightText text={"Job that is in demand"} />
+                    Get the clear mindset ,vision, and clearity 
+                        <HighlightText text={"what you really want to be"} />
                     </div>
 
                     <div className='flex flex-col gap-10 w-[40%] items-start'>
@@ -225,7 +225,7 @@ function Home() {
             {/* Review Slider here */}
       </div>
       <div className='mt-3 mb-16 '>
-        <h2 className='mt-8 mb-5 text-2xl font-semibold text-center md:text-4xl text-richblack-5'>Reviews from other learners</h2>
+        <h2 className='mt-8 mb-5 text-2xl font-semibold text-center md:text-4xl text-black'>Reviews from other learners</h2>
         <RatingSlider />
       </div>
     </div>
