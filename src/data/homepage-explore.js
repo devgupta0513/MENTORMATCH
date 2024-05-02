@@ -1,117 +1,130 @@
 export const HomePageExplore = [
     {
-        tag: 'Free',
+        tag: 'JEE MAINS',
         courses : [
             {
-                heading : "Learn HTML",
-                description : "This course covers the basic concepts of HTML including creating and structuring web pages, adding text, links, images, and more.",
+                heading : "Physics Fundamentals",
+                description : "Covers core concepts in physics essential for JEE Main preparation, including mechanics, electromagnetism, and optics.",
                 level : 'Beginner',
                 lessionNumber : 6
             },
             {
-                heading : "Learn CSS",
-                description : "This course explores advanced topics in HTML5 and CSS3, including animations, transitions, and layout techniques and various other features.",
+                heading : "Chemistry Basics",
+                description : "Introduction to foundational chemistry principles required for JEE Main, covering atomic structure, chemical bonding, and periodic trends.",
                 level : 'Beginner',
                 lessionNumber : 6
             },
             {
-                heading : "Responsive Web design",
-                description : "This course teaches responsive web design techniques, allowing web pages to adapt to different devices and screen sizes",
+                heading : "Mathematics Essentials",
+                description : "Fundamental mathematical concepts and problem-solving techniques for JEE Main, including algebra, trigonometry, and calculus.",
                 level : 'Beginner',
                 lessionNumber : 6
             },
         ]
     },
     {
-        tag: 'New to coding',
+        tag: 'JEE ADVANCE',
         courses : [
             {
-                heading : "JavaScript Basics",
-                description : " Learn the fundamentals of JavaScript programming, including variables, data types, functions, control structures, and DOM manipulation.",
+                
+
+                heading : "Advanced Physics",
+                description : "  Explores complex physics topics and problem-solving strategies for JEE Advanced, such as modern physics, wave optics, and thermal physics.",
                 level : 'Beginner',
                 lessionNumber : 6
             },
+             
+
             {
-                heading : "Python for Beginners",
-                description : "Dive into the world of Python programming, covering syntax, data structures, control flow, functions, and file handling.",
+                heading : "In-depth Chemistry",
+                description : "Covers advanced chemistry concepts and their applications in JEE Advanced, including organic chemistry mechanisms and coordination compounds.",
                 level : 'Beginner',
                 lessionNumber : 6
             },
+            
             {
-                heading : "Introduction to SQL",
-                description : "Learn the fundamentals of SQL, including database structures, how to write SQL queries, and how to navigate the PostgreSQL database server.",
+                heading : "Advanced Mathematics",
+                description : "Advanced mathematical techniques and problem-solving methods tailored for JEE Advanced, including vector calculus and differential equations.",
                 level : 'Beginner',
                 lessionNumber : 6
             },
         ]
     },
     {
-        tag: 'Most popular',
+        tag: 'NEET',
         courses : [
+        
             {
-                heading : "Mobile App Development",
-                description : "Explore the fundamentals of mobile app development, covering UI design, navigation, data storage, and deployment for iOS and Android platforms.",
+                heading : "Biology Basics",
+                description : "Introduction to essential biology concepts and terminology for NEET preparation, covering cell biology, genetics, and human physiology.",
                 level : 'Beginner',
                 lessionNumber : 6
             },
             {
-                heading : "Web Development with React",
-                description : "Learn the fundamentals of React, including JSX, the Virtual DOM, props, state, event handling, and working with data and APIs.",
+                heading : "Chemistry Fundamentals",
+                description : "Core chemistry principles and their applications in NEET, including organic chemistry reactions and biomolecules.",
                 level : 'Beginner',
                 lessionNumber : 6
             },
             {
-                heading : "Cybersecurity Essentials",
-                description : "Learn the fundamentals of cybersecurity, including how to detect threats, protect systems and networks, and anticipate potential cyber attacks.",
+             
+
+                heading : "Physics Essentials",
+                description : "Essential physics concepts and problem-solving skills necessary for NEET, including biomechanics and thermodynamics. ",
                 level : 'Beginner',
                 lessionNumber : 6
             },
         ]
     },
     {
-        tag: 'Skills paths',
+       
+        tag: 'PLACEMENT',
         courses : [
             {
-                heading : "Flask",
-                description : "Discover the fundamentals of web development with Flask, a Python-based microframework. Learn to build dynamic web applications, handle routes, manage templates, and interact with databases.",
+                heading : "Resume Building",
+                description : "Techniques for crafting an effective resume to secure job placements, including formatting tips and key sections.",
                 level : 'Beginner',
                 lessionNumber : 6
             },
             {
-                heading : "Django",
-                description : "Learn the fundamentals of web development with Django 2 by building a portfolio website with HTML, CSS, Python, and Django.",
+                heading : "Interview Preparation",
+                description : "Strategies for acing job interviews, including common questions and answers, and mock interview practice.",
                 level : 'Beginner',
                 lessionNumber : 6
             },
             {
-                heading : "Fast API",
-                description : "Learn the fundamentals of FastAPI, a Python-based framework for building web applications quickly and efficiently using modern software design principles.",
+                heading : "Soft Skills Development",
+                description : "Developing communication, teamwork, and leadership skills essential for professional success, including conflict resolution and time management.",
                 level : 'Beginner',
                 lessionNumber : 6
             },
         ]
     },
-    {
-        tag: 'Career paths',
-        courses : [
-            {
-                heading : "Next.js",
-                description : "Learn the fundamentals of Next.js, a React framework for building server-side rendered and statically generated React applications.",
-                level : 'Beginner',
-                lessionNumber : 6
-            },
-            {
-                heading : "Graphic Design Principles",
-                description : "Learn the fundamentals of graphic design, including typography, imagery, composition, layout, and color theory in a hands-on approach using Photoshop.",
-                level : 'Beginner',
-                lessionNumber : 6
-            },
-            {
-                heading : "Sanity",
-                description : "Learn the fundamentals of Sanity, a headless CMS for structured content that can be delivered through any channel.",
-                level : 'Beginner',
-                lessionNumber : 6
-            },
-        ]
-    },
+    // {
+    //     tag: 'Career paths',
+    //     courses : [
+    //         {
+    //             heading : "Next.js",
+    //             description : "Learn the fundamentals of Next.js, a React framework for building server-side rendered and statically generated React applications.",
+    //             level : 'Beginner',
+    //             lessionNumber : 6
+    //         },
+    //         {
+    //             heading : "Graphic Design Principles",
+    //             description : "Learn the fundamentals of graphic design, including typography, imagery, composition, layout, and color theory in a hands-on approach using Photoshop.",
+    //             level : 'Beginner',
+    //             lessionNumber : 6
+    //         },
+    //         {
+    //             heading : "Sanity",
+    //             description : "Learn the fundamentals of Sanity, a headless CMS for structured content that can be delivered through any channel.",
+    //             level : 'Beginner',
+    //             lessionNumber : 6
+
+
+
+
+     //         },
+    //     ]
+    // },
 ]

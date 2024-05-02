@@ -6,11 +6,11 @@ import CourseCard from './CourseCard';
 
 
 const tabsName = [
-    "Free",
-    "New to coding",
-    "Most popular",
-    "Skills paths",
-    "Career paths",
+    "JEE MAINS",
+    // "New to coding",
+    "JEE ADVANCE",
+    "NEET",
+    "PLACEMENT",
 ];
 
 const ExploreMore = () => {
@@ -31,13 +31,13 @@ const ExploreMore = () => {
   return (
     <div className=''>
 
-      <div className='text-3xl font-semibold text-center lg:text-4xl'>
-        Unlock the 
-        <HighlightText text={"Power of Code"} />
+      <div className='text-3xl font-semibold text-center lg:text-4xl text-black'>
+        Believe act
+        <HighlightText text={"Achieve Repeat"} />
       </div>
 
       <p className='text-center text-richblack-300 text-sm text-[16px] mt-3'>
-        Learn to build anything you can imagine
+      Boost Your Career Journey with MentorMatch.
       </p>  
 
       <div className='mt-5 flex flex-row rounded-full bg-richblack-800 mb-3 border-richblack-100

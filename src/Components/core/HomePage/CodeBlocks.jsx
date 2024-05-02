@@ -23,17 +23,17 @@ const CodeBlocks = ({
                     <FaArrowRight/>
                 </div>
             </CTAButton>
-
+{/* 
             <CTAButton active={ctabtn2.active} linkto={ctabtn2.linkto}>  
                     {ctabtn2.btnText}
-            </CTAButton>
+            </CTAButton> */}
         </div>
 
 
     </div>
 
      {/*Section 2*/}
-     <div className=' h-fit  flex flex-row text-10[px] w-[100%] py-3 lg:w-[500px] glass  '> 
+     <div className=' h-fit  flex flex-row text-10[px] w-[100%] py-3 lg:w-[500px] glass text-black  '> 
         {/*HW -> BG gradient*/}
 
         <div className='text-center flex flex-col w-[10%] text-richblack-400 font-inter font-bold'>

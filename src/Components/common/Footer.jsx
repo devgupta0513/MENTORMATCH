@@ -9,17 +9,14 @@ import { FaFacebook, FaGoogle, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const BottomFooter = ["Privacy Policy", "Cookie Policy", "Terms"];
 const Resources = [
+  "Mentoring",
   "Articles",
-  "Blog",
-  "Chart Sheet",
-  "Code challenges",
-  "Docs",
-  "Projects",
-  "Videos",
-  "Workspaces",
+  "progression",
+  "Challenges",
+  "Explore",
 ];
-const Plans = ["Paid memberships", "For students", "Business solutions"];
-const Community = ["Forums", "Chapters", "Events"];
+const Plans = ["Days Plan", "Monthly Plan", "Annual Plan"];
+const Community = ["", "", ""];
 
 const Footer = () => {
   return (
@@ -31,10 +28,10 @@ const Footer = () => {
             <div className="w-[30%] flex flex-col gap-3 lg:w-[30%] mb-7 lg:pl-0">
               <img src={Logo} alt="" className="object-contain" />
               <h1 className="text-richblack-50 font-semibold text-[16px]">
-                Company
+                {/* Company */}
               </h1>
               <div className="flex flex-col gap-2">
-                {["About", "Careers", "Affiliates"].map((ele, i) => {
+                {["About", "", ""].map((ele, i) => {
                   return (
                     <div
                       key={i}
@@ -102,7 +99,7 @@ const Footer = () => {
                 })}
               </div>
               <h1 className="text-richblack-50 font-semibold text-[16px] mt-7">
-                Community
+                {/* Community */}
               </h1>
 
               <div className="flex flex-col gap-2 mt-2">
@@ -171,7 +168,7 @@ const Footer = () => {
             })}
           </div>
 
-          <div className="text-center">Made by Himanshu Sangwan 🗿 © 2023 Studynotion</div>
+          <div className="text-center">Made by our Team (Arjuna)</div>
         </div>
       </div>
     </div>
