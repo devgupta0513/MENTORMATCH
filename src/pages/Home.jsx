@@ -47,7 +47,7 @@ function Home() {
             </div>
             </Link>
 
-            <div className='text-3xl font-semibold text-center md:text-4xl mt-7 text-black'>
+            <div className='text-3xl font-semibold text-center text-black md:text-4xl mt-7'>
             "Empower Your Academic Journey <HighlightText text={"through MentorMatch"}/>
             </div>
             <div className=' mt-4 w-[90%] text-left md:text-center text-sm md:text-lg font-bold text-richblack-300'>
@@ -76,7 +76,7 @@ function Home() {
             <CodeBlocks 
                 position={"lg:flex-row"}
                 heading={
-                    <div className='text-2xl font-semibold lg:text-4xl sm:w-full text-black'>
+                    <div className='text-2xl font-semibold text-black lg:text-4xl sm:w-full'>
                         Unlock the
                         <HighlightText text={"Right path for career "}/>
                         with MentorMatch
@@ -106,13 +106,13 @@ function Home() {
             />
         </div>
         <div className='box-content w-full py-12 mx-auto max-w-maxContentTab px- lg:max-w-maxContent'>
-        <h2 className='mb-6 text-xl section_heading md:text-3xl text-black'>
+        <h2 className='mb-6 text-xl text-black section_heading md:text-3xl'>
            Popular Mentors
         </h2>
         <CourseSlider Courses={CatalogPageData?.selectedCourses}/>
       </div>       
         <div className='box-content w-full py-12 mx-auto max-w-maxContentTab px- lg:max-w-maxContent'>
-        <h2 className='mb-6 text-xl section_heading md:text-3xl text-black'>
+        <h2 className='mb-6 text-xl text-black section_heading md:text-3xl'>
            Our Successful Mentees
         </h2>
         <CourseSlider Courses={CatalogPageData?.differentCourses}/>
@@ -225,7 +225,7 @@ function Home() {
             {/* Review Slider here */}
       </div>
       <div className='mt-3 mb-16 '>
-        <h2 className='mt-8 mb-5 text-2xl font-semibold text-center md:text-4xl text-black'>Reviews from other learners</h2>
+        <h2 className='mt-8 mb-5 text-2xl font-semibold text-center text-black md:text-4xl '>Reviews from other learners</h2>
         <RatingSlider />
       </div>
     </div>

@@ -53,7 +53,7 @@ const ResetPassword = () => {
                         {
                             !resetComplete && (
                                 <div >
-                                <div className=' relative mt-4'>
+                                <div className='relative mt-4 '>
                                     <label class="w-full"><p class="mb-1 text-[0.875rem] leading-[1.375rem] text-richblack-5">New Password <sup class="text-pink-200">*</sup></p>
                                     <input
                                        required
@@ -78,7 +78,7 @@ const ResetPassword = () => {
                                        )}
                                      </span>
                                 </div>
-                                <div className=' relative mt-4'>
+                                <div className='relative mt-4 '>
                                     <label class="w-full"><p class="mb-1 text-[0.875rem] leading-[1.375rem] text-richblack-5">Confirm New Password <sup class="text-pink-200">*</sup></p>
                                     <input
                                        required
@@ -118,7 +118,7 @@ const ResetPassword = () => {
                     </form> 
 
 
-                    <div className='mt-6 flex items-center justify-between'>
+                    <div className='flex items-center justify-between mt-6'>
                     <Link to={"/login"}>
                     <p class="flex items-center gap-x-2 text-richblack-5"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M21 11H6.414l5.293-5.293-1.414-1.414L2.586 12l7.707 7.707 1.414-1.414L6.414 13H21z"></path></svg> Back To Login</p>
                     </Link>
