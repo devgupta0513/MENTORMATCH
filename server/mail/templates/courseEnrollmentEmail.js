@@ -1,3 +1,4 @@
+
 exports.courseEnrollmentEmail = (courseName, name) => {
     return `<!DOCTYPE html>
     <html>
@@ -67,7 +68,7 @@ exports.courseEnrollmentEmail = (courseName, name) => {
     
     <body>
         <div class="container">
-            <a href="https://MentorMatch-edtech-project.vercel.app"><img class="logo" src="https://i.ibb.co/7Xyj3PC/logo.png"
+            <a href=""><img class="logo" src="https://res.cloudinary.com/minor-linkus/image/upload/v1715960065/try/llpzsmpszt3dpk32882a.png"
                     alt="MentorMatch Logo"></a>
             <div class="message">Course Registration Confirmation</div>
             <div class="body">

@@ -67,7 +67,7 @@ exports.paymentSuccess = (amount, paymentId, orderId, name,lastname) => {
     
     <body>
         <div class="container">
-            <a href="https://MentorMatch-edtech-project.vercel.app"><img class="logo" src="https://i.ibb.co/7Xyj3PC/logo.png"
+            <a href=""><img class="logo" src="https://res.cloudinary.com/minor-linkus/image/upload/v1715960065/try/llpzsmpszt3dpk32882a.png"
                     alt="MentorMatch Logo"></a>
             <div class="message">
             Your payment of ₹${amount} has been successfully received.
